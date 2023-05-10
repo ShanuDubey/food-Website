@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils">Foody</i></a>
+        <nav class="nav">
+            <a href="" class="active">Home</a>
+            <a href="">Dishes</a>
+            <a href="">About</a>
+            <a href="">Menu</a>
+            <a href="">Review</a>
+            <a href="">Order</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-bars" id="bars" onclick="menubar()"></i>
+            <i class="fas fa-search" id="search-box1" onclick="document.getElementById('search-form')"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <form action="" id="search-form">
+   <input type="search" placeholder="Search Here!!!" name="" id="search-box">
+   <label for="search-box" class="fas fa-search"></label>
+    <i class="fa fa-times" id="close"></i>
+    </form>
+    <section class="home" id="home">
+        <div class=" swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Spicy Noodles</h3>
+                        <p>Chinese Food</p>
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                    <div class="image" style="height: 500px; width: 300px;">
+                        <img src="/noodles.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Cheeze Pizza</h3>
+                        <p>Chinese Food</p>
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                    <div class="image" style="width: 100px;">
+                        <img src="/pizza1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>idli sambhar</h3>
+                        <p></p>
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="/idli.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button"></div>
+        </div>
+    </section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
